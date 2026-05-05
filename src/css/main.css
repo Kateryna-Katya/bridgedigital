@@ -57,3 +57,90 @@ font-weight: 700;
     right: 12%;
  }
 }
+/* How to Play */
+.how-section{
+    background: #f9e9cf;
+}
+.how-container{
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+.how-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+.how-item{
+    border-radius: 40px;
+        padding: 16px;
+        width: 335px;
+        height: 80px;
+border: 1px solid #fd9f3b;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.how-section{
+    background-image: url("/img/how/back.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 792px;
+}
+.how-container h3{
+margin-bottom: 16px;
+}
+.how-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.how-container{
+    padding-top: 20px;
+}
+.how-list{
+    width: 714px;
+    background-image: url("/img/how/depositphotos.png");
+    background-repeat: no-repeat;
+    background-size: 181px 190px;
+    background-position: top 42% left 58%;
+    gap: 171px;    
+    row-gap: 48px;
+
+    flex-direction: row;
+  flex-wrap: wrap;  
+  justify-content: center;
+}
+.how-item{
+        width: 315px;
+        height: 56px;
+}
+.h1{
+    order: 1;
+}
+.h2{
+   width: 218px;  
+   
+    order: 3;
+}
+.h3{
+   width: 307px; 
+order: 2px;
+}
+.h4{
+order:4;
+width: 280px;
+}
+.h5{
+order: 5;
+width: 240px;
+}
+.h6{
+order: 6;
+width: 520px;
+}
+}
