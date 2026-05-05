@@ -144,3 +144,45 @@ order: 6;
 width: 520px;
 }
 }
+/* Features */
+.features-section{
+    background-image: url("/img/features/mob.png");
+    background-repeat: no-repeat;
+    background-position: top 200px center;
+    background-size: contain;
+}
+.features-list{
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.features-item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+@media only screen and (min-width: 1440px) {
+.features-section {
+        background-image: url("/img/features/desk.png");
+        background-repeat: no-repeat;
+        background-position: top 280px center;
+        background-size: 1280px 383px;
+    }
+.features-container{
+    padding-top: 150px;
+    padding-bottom: 243px;
+}
+.features-list{
+    margin-top: 24px;
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    height: 116px;
+    column-gap: 460px;
+}
+.features-item{
+width: 299px;
+}
+}
