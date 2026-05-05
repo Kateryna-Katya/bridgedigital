@@ -34,3 +34,26 @@ width: 546px;
     margin-top: 140px;
 }
 }
+/* About the Game */
+.span{
+font-weight: 700;
+}
+@media only screen and (min-width: 1440px) {
+ .about-container{
+    position: relative;
+    padding-left: 188px;
+    padding-bottom: 280px;
+ }
+ .about-container h2,
+ .about-container h3{
+    text-align: left;
+ }
+ .about-text{
+    width: 522px;    
+ }
+ .about-img{
+    position: absolute;
+    top: 12%;
+    right: 12%;
+ }
+}
