@@ -10,14 +10,17 @@ let reviewsSwiper;
 function initSwipers() {
   const isDesktop = window.innerWidth >= 1440;
 
-  // 🖼 Gallery — завжди працює
+  //  Gallery — завжди працює
   if (!gallerySwiper) {
     gallerySwiper = new Swiper('.gallery-swiper', {
-      modules: [Navigation],
+      modules: [Navigation, Autoplay],
 slidesPerView: 1.7,
       loop: true,
       spaceBetween: 16,
-
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
       navigation: {
         nextEl: '.gallery-next',
         prevEl: '.gallery-prev',
@@ -32,7 +35,7 @@ slidesPerView: 1.7,
     });
   }
 
-  // 💬 Reviews — тільки до 1440
+  //  Reviews — тільки до 1440
   if (!isDesktop) {
     if (!reviewsSwiper) {
       reviewsSwiper = new Swiper('.reviews-swiper', {
