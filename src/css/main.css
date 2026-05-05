@@ -186,3 +186,26 @@ width: 520px;
 width: 299px;
 }
 }
+/* Visual Gallery */
+.gallery-swiper,
+.reviews-swiper {
+    overflow: hidden;
+}
+.btn-gallery{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+ .gallery-container{
+    padding-top: 150px;
+ }
+ .btn-gallery{
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+ .btn{
+    background-color: inherit;
+    border: none;
+ }
+}
