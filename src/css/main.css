@@ -209,3 +209,57 @@ width: 299px;
     border: none;
  }
 }
+/* Player Reviews */
+.reviews-section{
+background: #f9e9cf;
+}
+.reviews-container{
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+.reviews-swiper .swiper-slide{
+    border-radius: 40px;
+        padding: 22px 28px;
+border: 1px solid #fd9f3b;
+display: flex;
+flex-direction: column;
+align-items: start;
+}
+.reviews-text{
+    margin-top: 16px;
+    min-height: 48px;
+}
+.author-wrapper{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.avatar-img{
+    width: 72px;
+    height: 72px;
+}
+.author{
+    font-family: "Baloo 2", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.5;
+        background: linear-gradient(180deg, #fd9f3b 0%, #f65c52 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+@media only screen and (min-width: 1440px) {
+.reviews-swiper .swiper-wrapper{
+    width: 1279px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.reviews-swiper .swiper-slide{
+    width: 413px;
+        height: 206px;
+}
+}

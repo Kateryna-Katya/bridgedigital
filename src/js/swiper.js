@@ -39,7 +39,7 @@ slidesPerView: 1.7,
         modules: [Autoplay],
 
         loop: true,
-        slidesPerView: 1.1,
+        slidesPerView: 1.0,
         spaceBetween: 16,
 
         autoplay: {
